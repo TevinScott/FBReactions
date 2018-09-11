@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		B670291A2146D8C800D08446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67029192146D8C800D08446 /* AppDelegate.swift */; };
-		B670291C2146D8C800D08446 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B670291B2146D8C800D08446 /* ViewController.swift */; };
+		B670291C2146D8C800D08446 /* FacebookFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B670291B2146D8C800D08446 /* FacebookFeedViewController.swift */; };
 		B670291F2146D8C800D08446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B670291D2146D8C800D08446 /* Main.storyboard */; };
 		B67029212146D8C900D08446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B67029202146D8C900D08446 /* Assets.xcassets */; };
 		B67029242146D8C900D08446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67029222146D8C900D08446 /* LaunchScreen.storyboard */; };
 		B670292F2146D8C900D08446 /* FBReactionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B670292E2146D8C900D08446 /* FBReactionsTests.swift */; };
 		B670293A2146D8C900D08446 /* FBReactionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67029392146D8C900D08446 /* FBReactionsUITests.swift */; };
+		B67029482146E59800D08446 /* Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67029472146E59800D08446 /* Gif.swift */; };
+		B670294F2146E72400D08446 /* love.gif in Resources */ = {isa = PBXBuildFile; fileRef = B67029492146E72300D08446 /* love.gif */; };
+		B67029512146E72400D08446 /* angry.gif in Resources */ = {isa = PBXBuildFile; fileRef = B670294B2146E72400D08446 /* angry.gif */; };
+		B67029532146E72400D08446 /* haha.gif in Resources */ = {isa = PBXBuildFile; fileRef = B670294D2146E72400D08446 /* haha.gif */; };
+		B67029542146E72400D08446 /* like.gif in Resources */ = {isa = PBXBuildFile; fileRef = B670294E2146E72400D08446 /* like.gif */; };
+		B67029562147051600D08446 /* wow.gif in Resources */ = {isa = PBXBuildFile; fileRef = B67029552147051600D08446 /* wow.gif */; };
+		B67029582147058900D08446 /* sad.gif in Resources */ = {isa = PBXBuildFile; fileRef = B67029572147058900D08446 /* sad.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,7 @@
 /* Begin PBXFileReference section */
 		B67029162146D8C800D08446 /* FBReactions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBReactions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67029192146D8C800D08446 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B670291B2146D8C800D08446 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B670291B2146D8C800D08446 /* FacebookFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookFeedViewController.swift; sourceTree = "<group>"; };
 		B670291E2146D8C800D08446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B67029202146D8C900D08446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B67029232146D8C900D08446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		B67029352146D8C900D08446 /* FBReactionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBReactionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67029392146D8C900D08446 /* FBReactionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBReactionsUITests.swift; sourceTree = "<group>"; };
 		B670293B2146D8C900D08446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B67029472146E59800D08446 /* Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gif.swift; sourceTree = "<group>"; };
+		B67029492146E72300D08446 /* love.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = love.gif; sourceTree = "<group>"; };
+		B670294B2146E72400D08446 /* angry.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = angry.gif; sourceTree = "<group>"; };
+		B670294D2146E72400D08446 /* haha.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = haha.gif; sourceTree = "<group>"; };
+		B670294E2146E72400D08446 /* like.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = like.gif; sourceTree = "<group>"; };
+		B67029552147051600D08446 /* wow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wow.gif; sourceTree = "<group>"; };
+		B67029572147058900D08446 /* sad.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sad.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +112,18 @@
 			isa = PBXGroup;
 			children = (
 				B67029192146D8C800D08446 /* AppDelegate.swift */,
-				B670291B2146D8C800D08446 /* ViewController.swift */,
+				B670291B2146D8C800D08446 /* FacebookFeedViewController.swift */,
 				B670291D2146D8C800D08446 /* Main.storyboard */,
 				B67029202146D8C900D08446 /* Assets.xcassets */,
 				B67029222146D8C900D08446 /* LaunchScreen.storyboard */,
 				B67029252146D8C900D08446 /* Info.plist */,
+				B67029472146E59800D08446 /* Gif.swift */,
+				B670294B2146E72400D08446 /* angry.gif */,
+				B670294D2146E72400D08446 /* haha.gif */,
+				B67029572147058900D08446 /* sad.gif */,
+				B670294E2146E72400D08446 /* like.gif */,
+				B67029492146E72300D08446 /* love.gif */,
+				B67029552147051600D08446 /* wow.gif */,
 			);
 			path = FBReactions;
 			sourceTree = "<group>";
@@ -231,7 +252,13 @@
 			files = (
 				B67029242146D8C900D08446 /* LaunchScreen.storyboard in Resources */,
 				B67029212146D8C900D08446 /* Assets.xcassets in Resources */,
+				B67029512146E72400D08446 /* angry.gif in Resources */,
+				B67029582147058900D08446 /* sad.gif in Resources */,
+				B67029562147051600D08446 /* wow.gif in Resources */,
+				B670294F2146E72400D08446 /* love.gif in Resources */,
 				B670291F2146D8C800D08446 /* Main.storyboard in Resources */,
+				B67029532146E72400D08446 /* haha.gif in Resources */,
+				B67029542146E72400D08446 /* like.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B670291C2146D8C800D08446 /* ViewController.swift in Sources */,
+				B670291C2146D8C800D08446 /* FacebookFeedViewController.swift in Sources */,
+				B67029482146E59800D08446 /* Gif.swift in Sources */,
 				B670291A2146D8C800D08446 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
